@@ -1,0 +1,127 @@
+*{
+    border-radius: 8px;
+    
+}
+body{
+    width: 90%;
+    margin: auto;
+    
+}
+.logo{
+    height: 60px;
+}
+.logo1{
+    height: 100px;
+    width: 100px;
+}
+.logo-link{
+    width: 100px;
+}
+.home{
+    background-image: url("images/photo-1499728603263-13726abce5fd.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    margin: 3%;
+    color: whitesmoke;
+    height: 90vh;
+    background-position: center;
+}
+.homehead{
+    font-size: 5rem;
+
+}
+.homesmall{
+    font-size: 2rem;
+}
+.inside{
+
+    position: absolute;
+    left: 110px;
+    bottom: 10px;
+   
+}
+.blog_section{
+    text-align: center;
+    margin: 3%;
+}
+.blogs{
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-columns: repeat(3,1fr);
+   row-gap: 50px;
+    width: 90%;
+    margin: auto;
+    justify-content: center;
+}
+.card{
+    border: none;
+    justify-content: space-evenly;
+    background-color: #EEF1FF;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card:hover{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 2px 8px 22px 2px #D2DAFF;
+}
+
+.card-img-top{
+    border-radius: 8px;
+    width: 288px;
+    height: 192.146px;;
+}
+.load{
+    margin-top: 7%;
+    font-size: 16px;
+    height: 40px;
+    
+}
+.latest{
+    margin: 7%;
+    font-size: 50px;
+}
+.footer{
+    background-color: black;
+    color:#EEF1FF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+
+}
+.foot2{
+    text-align: center;
+}
+.footbtn{
+    margin: 15px 7px 0px;
+}
+.foot_heading{
+    margin: 10px;
+}
+.footdetail{
+    margin-top: 2px !important;
+}
+@media screen and (max-width:1100px)
+{
+  .blogs{
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    width: 70%;
+    column-gap: 60px;
+  } 
+  .home{
+    background-image: cover;
+    background-position: center;
+  }
+
+}
+@media screen and (max-width:900px) {
+    .blogs{
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+        text-align: center;
+        width: 50%;
+
+    }
+    
+}
